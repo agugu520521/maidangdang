@@ -1,0 +1,19 @@
+dist/
+.dist-*/
+.DS_Store
+node_modules/
+*.log
+
+# Local verification captures and original asset working copies.
+qa/
+source-assets/
+
+# Local configuration and credentials are never repository content.
+.env
+.env.*
+!.env.example
+.wrangler/
+*.pem
+*.key
+*.p12
+*.pfx

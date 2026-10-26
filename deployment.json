@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "provider": "cloudflare-pages",
+  "integration": "github",
+  "productionBranch": "main",
+  "rootDirectory": "",
+  "frameworkPreset": "None",
+  "buildCommand": "npm run build",
+  "buildScript": "node scripts/build.mjs",
+  "prebuildScript": "node scripts/check-deployment.mjs",
+  "outputDirectory": "dist",
+  "nodeMajor": 24,
+  "automaticProductionDeployments": true,
+  "hostnameSuffix": ".pages.dev",
+  "protectedFiles": {
+    "scripts/build.mjs": "492a5d365d57756e269bb290b16d99b5e6fd098782b01405c527ba86670df2cb"
+  }
+}

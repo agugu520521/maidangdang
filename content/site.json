@@ -1,0 +1,190 @@
+{
+  "name": "你的名字",
+  "role": "VISUAL DESIGNER / 视觉创作者",
+  "title": "Designing\nbrighter\nrealities.",
+  "intro": "A designer exploring\nthe space between\nideas and emotions.",
+  "email": "",
+  "location": "中国 · 随处创作",
+  "titleStyle": "editorial",
+  "textColor": "burgundy",
+  "labels": {
+    "heroCaption": "A UNIVERSE OF ONE’S OWN",
+    "selectedTitle": "Selected Works.",
+    "selectedIntro": "这里将呈现我的图像、影像与广告作品。",
+    "videoSection": "Moving Stories.",
+    "videoEnglish": "MOTION & STORIES",
+    "detailOverview": "关于作品",
+    "detailSummary": "创作起点",
+    "detailProcess": "创作过程",
+    "detailGallery": "作品细节",
+    "detailOutcome": "创作收获",
+    "navHome": "首页",
+    "navImages": "图片作品",
+    "navVideos": "视频作品",
+    "navAds": "广告作品",
+    "imageSection": "图像，留下感受",
+    "imageEnglish": "PHOTOGRAPHY",
+    "adSection": "创意，连接品牌",
+    "adEnglish": "COMMERCIAL",
+    "imagesTitle": "目光所及",
+    "imagesIntro": "收集光线、情绪，和那些值得停留的瞬间。",
+    "videosTitle": "流动的故事",
+    "videosIntro": "让时间成为叙事的一部分。",
+    "adsTitle": "创意的回响",
+    "adsIntro": "从一个想法出发，让品牌被看见、被记住。",
+    "footerTitle": "Let’s create\nbrighter realities\ntogether.",
+    "footerEnglish": "LET’S MAKE SOMETHING MEANINGFUL",
+    "contact": "聊聊合作",
+    "explore": "向下探索",
+    "viewAll": "查看全部",
+    "watch": "观看影片"
+  },
+  "images": [
+    {
+      "id": "image-1",
+      "title": "屿刻IP延展",
+      "category": "光影研究",
+      "year": "2026",
+      "description": "商业IP的延伸构思",
+      "image": "media/692ffa8c-c430-40ad-a6b5-88fee23162d8.webp",
+      "process": "",
+      "gallery": [],
+      "role": "设计"
+    },
+    {
+      "id": "image-2",
+      "title": "示例 · 日常之外",
+      "category": "生活观察",
+      "year": "2026",
+      "description": "重新看见那些习以为常的瞬间。示例内容，可在工坊替换。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "image-3",
+      "title": "示例 · 静物，亦有声",
+      "category": "静物摄影",
+      "year": "2026",
+      "description": "关于材质、色彩和细微的秩序。示例内容，可在工坊替换。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "image-4",
+      "title": "示例 · 山野来信",
+      "category": "自然记录",
+      "year": "2026",
+      "description": "把目光交给远处。示例内容，可在工坊替换。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "image-5",
+      "title": "示例 · 城市切片",
+      "category": "空间探索",
+      "year": "2026",
+      "description": "以另一种尺度阅读城市。示例内容，可在工坊替换。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "image-6",
+      "title": "示例 · 片刻停留",
+      "category": "情绪影像",
+      "year": "2026",
+      "description": "为一个安静的瞬间按下暂停。示例内容，可在工坊替换。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "841c6157-fcb4-4f35-826b-7893830e14f1",
+      "title": "新作品",
+      "category": "视觉创作",
+      "year": "2026",
+      "description": "",
+      "image": "",
+      "role": "",
+      "process": "",
+      "outcome": "",
+      "gallery": []
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-1",
+      "title": "烬墟",
+      "category": "个人短片",
+      "year": "2026",
+      "description": "影像，是与世界相处的另一种方式。请在工坊粘贴你的 B站链接，上传一张封面。 待上传你的真实作品。",
+      "image": "media/106f3114-7545-4086-bce9-812d6c21d5a0.webp",
+      "bvid": ""
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad-1",
+      "title": "MIellow 金渐层小猫玩偶",
+      "category": "品牌视觉",
+      "year": "2026",
+      "description": "一只珊瑚绒金渐层玩偶",
+      "image": "media/f0a1cfba-0fc9-4e12-ad27-b40a56ecf97f.webp",
+      "gallery": [
+        {
+          "image": "media/beab0e70-3071-485a-8353-f4f5ec6fb5ff.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/46f127a7-db16-4122-9422-a9899155036e.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/7b9e44d0-34c9-41d7-bd92-a4603ea24d8a.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/2900b64c-bf5e-44c1-9822-31b6fb3eb668.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/a0f739bf-b7eb-4f14-a390-4b2a1893d05f.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/a3f08c62-32e5-493c-a3c2-31c686b03a95.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/cc57852b-5ba2-4284-ad9b-ec2ce617e48e.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/0c2b444c-90e5-42d8-91e8-9d5a879d0083.webp",
+          "caption": ""
+        },
+        {
+          "image": "media/3c80ad84-fda7-4430-9566-6b66e6a5da28.webp",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "ad-2",
+      "title": "示例 · 重新想象日常",
+      "category": "创意海报",
+      "year": "2026",
+      "description": "示例项目，请替换为你的真实广告作品。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "ad-3",
+      "title": "示例 · 好奇心发生处",
+      "category": "品牌创意",
+      "year": "2026",
+      "description": "示例项目，请替换为你的真实广告作品。 待上传你的真实作品。",
+      "image": ""
+    },
+    {
+      "id": "ad-4",
+      "title": "示例 · 让灵感发生",
+      "category": "整合视觉",
+      "year": "2026",
+      "description": "示例项目，请替换为你的真实广告作品。 待上传你的真实作品。",
+      "image": ""
+    }
+  ]
+}

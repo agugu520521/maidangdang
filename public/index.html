@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141017">
+  <meta name="description" content="Burgundy Cosmos — A Universe of One’s Own. 个人视觉作品集：图片、影像与广告创作。">
+  <title>个人作品集 — Burgundy Cosmos</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/cormorant-latin-normal.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <script type="module" src="site.js"></script>
+</head>
+<body data-page="home" data-title-style="editorial" data-text-color="burgundy">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+        <header class="site-header" id="global-header">
+          <a class="wordmark" href="#/" aria-label="返回首页"><span id="brand">你的名字</span><span>.</span></a>
+          <div class="header-actions">
+            <nav id="main-nav" class="main-nav" aria-label="主导航">
+              <a href="#/" data-page="home">首页</a>
+              <a href="#/images" data-page="images">图片作品</a>
+              <a href="#/videos" data-page="videos">视频作品</a>
+              <a href="#/ads" data-page="ads">广告作品</a>
+            </nav>
+            <button class="motion-toggle" type="button" aria-label="暂停场景动态" aria-pressed="false" title="暂停场景动态">
+              <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="12"/><path class="motion-star" d="M14 7v14M7 14h14M10 10l8 8M10 18l8-8"/><path class="motion-play" d="m12 10 6 4-6 4z"/></svg>
+            </button>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="打开导航菜单"><span></span><span></span></button>
+          </div>
+        </header>
+  <main id="main" tabindex="-1">
+  <div id="home-view">
+    <div class="intro-sequence" id="top">
+      <div class="dark-curtain" aria-hidden="true"></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="cosmos" aria-hidden="true">
+          <div class="space-depth"></div>
+          <div class="starfield" id="starfield"></div>
+          <div class="orbit orbit--one"></div>
+          <div class="planet-wrap" id="planet-wrap">
+            <img class="planet-fallback" src="assets/planet-fallback.webp" alt="" width="1200" height="1200" fetchpriority="high">
+            <canvas id="planet-canvas" class="planet-canvas" aria-hidden="true"></canvas>
+          </div>
+          <div class="distant-light"></div>
+          <div class="rose-position" id="rose-position"><div class="rose-float"><img class="rose" src="assets/rose.webp" width="1100" height="1656" alt="" loading="eager"></div></div>
+          <div class="scene-grain"></div>
+        </div>
+
+
+
+        <div class="section-rail" aria-hidden="true"><span>01</span><i></i><span class="rail-next">02</span></div>
+        <div class="hero-copy">
+          <p class="hero-role" id="hero-role">VISUAL DESIGNER / 视觉创作者</p>
+          <h1 id="hero-title" tabindex="-1"><span>Designing</span><span>brighter</span><em>realities.</em></h1>
+          <div class="copy-rule" aria-hidden="true"></div>
+          <p class="hero-description" id="hero-intro">A designer exploring<br>the space between<br>ideas and emotions.</p>
+        </div>
+        <a class="scroll-cue" href="#work"><span id="explore-label">向下探索</span><span class="scroll-line" aria-hidden="true"><i></i><svg viewBox="0 0 20 20"><path d="M10 2v15m-4-4 4 4 4-4"/></svg></span></a>
+        <span class="hero-caption" aria-hidden="true">A UNIVERSE OF ONE’S OWN</span>
+        <div class="hero-bottom-line" aria-hidden="true"></div>
+      </section>
+      <div class="threshold" id="transition" aria-hidden="true"><span class="threshold-line"></span></div>
+    </div>
+
+    <section class="selected-works" id="work" aria-labelledby="works-title">
+      <div class="works-heading">
+        <div class="works-index" aria-hidden="true"><span>02</span><i></i></div>
+        <h2 id="works-title">Selected<br>Works.</h2>
+        <p class="works-intro" id="selected-intro">这里将呈现我的图像、影像与广告作品。</p>
+      </div>
+      <div id="home-images"></div>
+    </section>
+    <section id="home-video" aria-label="精选视频作品"></section>
+    <section class="selected-works ads-section" id="home-ads" aria-label="精选广告作品"></section>
+  </div>
+  <div id="page-view" hidden></div>
+  </main>
+  <footer id="contact"></footer>
+  <div id="toast" class="toast" role="status"></div>
+
+</body>
+</html>

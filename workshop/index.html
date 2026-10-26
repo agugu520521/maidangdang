@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4eee8"><title>本地工坊 / BURGUNDY COSMOS</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/workshop/workshop.css"><script type="module" src="/workshop/workshop.js"></script></head>
+<body>
+  <aside class="workshop" aria-label="网站编辑工坊">
+    <header class="workshop-header"><div class="workshop-brand"><span aria-hidden="true">✳</span> 本地工坊 <span class="local-badge">仅本机</span></div><p class="workshop-subbrand">/ BURGUNDY COSMOS</p><p>左边编辑，右边即刻呈现。</p></header>
+    <div class="editor-scroll">
+      <div class="intro-note"><span class="note-dot"></span><div>你的私人创作空间<small>修改后实时预览，保存后生成网站。</small><small>工坊不会出现在对外部署的网站中。</small></div></div>
+      <div class="editor-tabs" role="tablist" aria-label="编辑内容"><button role="tab" aria-selected="true" data-tab="general">文字 / 风格</button><button role="tab" aria-selected="false" data-tab="images">图片</button><button role="tab" aria-selected="false" data-tab="videos">视频</button><button role="tab" aria-selected="false" data-tab="ads">广告</button></div>
+      <form id="editor" autocomplete="off"><p>正在打开内容…</p></form>
+      <details class="help"><summary>第一次使用？看这里</summary><p>① 在上方选择要编辑的内容。修改后右侧立即更新，切换作品分类会打开对应分页。</p><p>② 点击底部“保存并生成网站”，内容和 dist 文件夹会写入本机项目。</p><p>③ 图片只从本地上传，自动转为 WebP 并压缩至单张 2MB 以下。建议使用清晰的原图。</p><p>④ B站链接保留到 BV 编号末尾，后面的问号和参数都删掉。例如：<code>https://www.bilibili.com/video/BVxxxxxxxxxx/</code>。也可以直接粘贴完整视频链接，工坊会自动识别。</p><p>短链接 b23.tv 请先在浏览器打开，复制跳转后的完整视频地址。多集视频默认播放第 1 集。</p><p>首页展示图片前 6 项、视频第 1 项、广告前 4 项；其余作品在对应分页展示。用 ↑ ↓ 调整顺序。</p><p>保存只更新本地文件。等你确认并发送“部署”后，再按步骤连接 GitHub 和 Cloudflare Pages。</p></details>
+    </div>
+    <footer class="save-bar"><p id="save-status" role="status">正在连接本地服务</p><button id="save" class="primary" disabled>保存并生成网站 <span>↗</span></button><p class="save-caption">生成 dist · 不会自动推送或部署</p></footer>
+  </aside>
+  <section class="preview-shell" aria-label="网站实时预览"><header class="preview-toolbar"><div><span class="live-dot"></span><span>实时预览</span><span class="preview-label">与发布后网站一致</span></div><div class="preview-actions"><button id="desktop" class="active" aria-label="桌面预览" aria-pressed="true">桌面</button><button id="mobile" aria-label="手机预览" aria-pressed="false">手机</button><a href="/" target="_blank" rel="noopener">独立打开 ↗</a></div></header><div class="preview-stage"><iframe id="preview" src="/?preview=1" title="个人作品集实时预览"></iframe></div></section>
+</body></html>

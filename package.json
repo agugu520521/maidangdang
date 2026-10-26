@@ -1,0 +1,16 @@
+{
+  "name": "burgundy-cosmos-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Burgundy Cosmos 个人作品展示网站与本地工坊",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "prebuild": "node scripts/check-deployment.mjs",
+    "build": "node scripts/build.mjs",
+    "check:deployment": "node scripts/check-deployment.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

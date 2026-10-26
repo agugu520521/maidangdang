@@ -1,0 +1,15 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.command text eol=lf
+.node-version text eol=lf
+*.webp binary
+*.png binary
+*.jpg binary
+*.ttf binary
+# Preserve upstream font license text verbatim, including its original spacing.
+public/assets/fonts/OFL-*.txt -whitespace
